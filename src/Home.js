@@ -11,6 +11,7 @@ export default class Home extends Component {
   state = {userInfo: {}};
 
   getInfoFromToken = token => {
+    
     const PROFILE_REQUEST_PARAMS = {
       fields: {
         string: 'id, name,  first_name, last_name',
